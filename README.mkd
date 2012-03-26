@@ -1,0 +1,13 @@
+ant.vim
+=======
+
+`ant.vim` is an interface to apache ant. Ant can be called from any directory
+within the project. Commands are also created for each ant target. For example,
+if you have ant targets of `clean`, `compile` and `install`, you can invoke
+them from vim by `:Ant clean compile install`.
+
+
+TODO
+-----
+
+* Fix errorformat string
